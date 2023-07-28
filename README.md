@@ -9,4 +9,5 @@
 
 
 ## JSON Data
-![JSON Data](https://github.com/s0oraj/Animus/assets/42529024/ebfdd933-1e3d-4674-9dfc-eb76c2c22f78)
+![image](https://github.com/s0oraj/upgrad-resume-assignment-cgu/assets/42529024/bdc1915f-9b3e-4f78-9f34-35ceacbdc8fe)
+
