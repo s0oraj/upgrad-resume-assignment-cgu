@@ -30,6 +30,7 @@ export interface Certificate {
     certi_start_date:   string;
     certi_end_date:     string;
     currently_pursuing: number;
+    bulletPoints:       string[];
 }
 
 export interface Education {
@@ -41,6 +42,7 @@ export interface Education {
     degree_start_date:   string;
     degree_end_date:     string;
     current_attend_here: number;
+    bulletPoints:       string[];
 }
 
 export interface Project {
@@ -48,6 +50,7 @@ export interface Project {
     project_name: string;
     project_link: string;
     description:  string;
+    bulletPoints:       string[];
 }
 
 export interface Skill {
@@ -56,6 +59,7 @@ export interface Skill {
     technical_skills:     string;
     non_technical_skills: string;
     softwares:            string;
+    bulletPoints:       string[];
 }
 
 export interface WorkExperience {
@@ -67,4 +71,5 @@ export interface WorkExperience {
     end_date:            string;
     Description:         string;
     currently_work_here: number;
+    bulletPoints:       string[];
 }
