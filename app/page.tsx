@@ -25,14 +25,15 @@ async function getData() {
 export default async function HomePage(){
   const router = useRouter();
   const demodata:Resume = await getData()
+
 const contacts = [
   {Icons : BsFillTelephoneFill, info:demodata.phone_number,link:`tel:${demodata.phone_number}`},
   {Icons : MdEmail , info:demodata.email,link:`mailto:${demodata.email}`},
   {Icons : IoLocationSharp , info:`${demodata.city} ,${demodata.country}`,link:'#'},
   {Icons : LiaLinkedinIn , info:demodata.linkedin,link:demodata.linkedin},
-  {Icons :  BiSolidContact, info:'portfolio',link:demodata.portfolio_link}
-
+  {Icons :  BiSolidContact, info:demodata.portfolio_link,link:demodata.portfolio_link}
 ]
+
 function getDuration(start:string , end:string){
   const startdate = new Date(start);
   const endDate = new Date(end);
@@ -138,6 +139,7 @@ return formattedDateRange ;
             title={works.job_title}
             duration={getDuration(works.start_date ,works.end_date)}
             description={works.Description}
+            bulletpoints={works.bulletPoints}
             />
                 </li>)
               }
@@ -155,6 +157,7 @@ return formattedDateRange ;
             title={edu.school_name}
             duration={getDuration(edu.degree_start_date ,edu.degree_end_date)}
             description={edu.field_of_study}
+            bulletpoints={edu.bulletPoints}
             />
                 </li>)
               }
@@ -169,6 +172,7 @@ return formattedDateRange ;
             title={pro.project_name}
             description={pro.description}
             href={pro.project_link}
+            bulletpoints={pro.bulletPoints}
             />
                 </li>)
               }
@@ -183,13 +187,11 @@ return formattedDateRange ;
             title={certificate.certi_name}
             href={certificate.certi_link}
             duration={getDuration(certificate.certi_start_date , certificate.certi_end_date)}
+            bulletpoints={certificate.bulletPoints}
             />
                 </li>)
               }
-            
           </MainContent>
-          
-
         </div>
     </div>
    </>
