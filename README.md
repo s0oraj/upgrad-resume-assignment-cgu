@@ -10,6 +10,8 @@ TASK 2 : [Resume Website Link](https://upgrad-resume-assignment-cgu.vercel.app/)
 ## User Interface (Reactjs + tailwind css)
 Dashboard
 ![Dashboard](https://github.com/s0oraj/upgrad-resume-assignment-cgu/assets/42529024/6561c7ce-4283-414c-bc0f-ca6959942cdb)
+![Dashboard2](https://github.com/s0oraj/upgrad-resume-assignment-cgu/assets/42529024/894fe9d4-bc9d-4f89-9ffe-919549c75175)
+
 User-Interface
 ![User-Interface](https://github.com/s0oraj/upgrad-resume-assignment-cgu/assets/42529024/5d67f180-c392-4370-8d6a-7a84debbfa5d)
 
